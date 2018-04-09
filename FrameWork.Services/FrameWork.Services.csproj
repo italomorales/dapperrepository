@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FrameWork.Model\FrameWork.Model.csproj" />
+    <ProjectReference Include="..\FrameWork.Repository\FrameWork.Repository.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>    
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.5.0-rc3" />
+    <PackageReference Include="NLog" Version="4.5.0-rc06" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
